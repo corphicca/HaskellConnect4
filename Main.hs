@@ -43,6 +43,6 @@ gameLoop grid currentPlayer = do
 main :: IO ()
 main = do
   hSetBuffering stdout NoBuffering
-  putStrLn "Welcome to Connect Four (Alternate Version)!"
+  putStrLn "Welcome to Connect Four!"
   let initialGrid = createGrid 7 6
   gameLoop initialGrid playerOne
